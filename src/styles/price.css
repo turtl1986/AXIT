@@ -16,12 +16,14 @@
   text-align: center;
   align-items: center;
   flex-basis: 23.125rem;
+  transition: ease 3s;
 }
 
-.price__table--chosen {
-  filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+.price__table:hover {
+  box-shadow: 30px 37px 12px -6px rgba(0, 0, 0, 0.2);
   border: 0;
   align-self: start;
+  transform: translateY(-10px);
 }
 
 .table__title {
