@@ -1,0 +1,24 @@
+.social {
+  background-color: #f8efef;
+  margin-bottom: 6rem;
+}
+
+.social__container {
+  display: flex;
+  gap: 30px;
+}
+
+.text__label {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.text__description {
+  font-size: 1.125rem;
+  line-height: 21px;
+  color: #86878b;
+  padding: 1.125rem 0;
+}
