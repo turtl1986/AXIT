@@ -1,6 +1,7 @@
 .reviews__box {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 3.125rem;
 }
 
 .reviews__review {
