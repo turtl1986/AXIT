@@ -5,20 +5,19 @@
 
 .social__container {
   display: flex;
-  gap: 30px;
+  gap: 1.9rem;
 }
 
 .text__label {
   font-family: "Open Sans";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-transform: capitalize;
   color: #333333;
 }
 
 .text__description {
   font-size: 1.125rem;
-  line-height: 21px;
   color: #86878b;
   padding: 1.125rem 0;
 }
