@@ -11,7 +11,8 @@
   padding: 2.1875rem 0px 1.6875rem 0px;
 }
 
-.footer__social {
+
+.social__address{
   display: flex;
   gap: 2.0625rem;
 }

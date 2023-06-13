@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="./src/styles/price.css" />
     <link rel="stylesheet" href="./src/styles/reviews.css" />
     <link rel="stylesheet" href="./src/styles/design.css" />
-    <link rel="stylesheet" href="./src/styles/contact.css">
-    <link rel="stylesheet" href="./src/styles/footer.css">
+    <link rel="stylesheet" href="./src/styles/contact.css" />
+    <link rel="stylesheet" href="./src/styles/footer.css" />
 
     <title>AXIT</title>
   </head>
@@ -33,19 +33,31 @@
     <header class="header">
       <div class="container">
         <div class="header__container">
-          <img
-            src="./src/assets/images/logo.svg"
-            alt="logo company"
-            class="header__logo"
-          />
-<nav class="menu"><ul class="menu__items">
-  <li class="menu__item" > <a class="item__link" href="#tabs"> Features</a></li>
-  <li class="menu__item" ><a class="item__link" href="#awesome">About</a></li>
-  <li class="menu__item" ><a class="item__link" href="#price">Pricing</a></li>
-  <li class="menu__item" ><a class="item__link" href="#reviews">Reviews</a></li>
-  <li class="menu__item" ><a class="item__link" href="#contact">Contacts</a></li>
-</ul></nav>
-          
+          <a href="#"
+            ><img
+              src="./src/assets/images/logo.svg"
+              alt="logo company"
+              class="header__logo"
+          /></a>
+          <nav class="menu">
+            <ul class="menu__items">
+              <li class="menu__item">
+                <a class="item__link" href="#tabs"> Features</a>
+              </li>
+              <li class="menu__item">
+                <a class="item__link" href="#awesome">About</a>
+              </li>
+              <li class="menu__item">
+                <a class="item__link" href="#price">Pricing</a>
+              </li>
+              <li class="menu__item">
+                <a class="item__link" href="#reviews">Reviews</a>
+              </li>
+              <li class="menu__item">
+                <a class="item__link" href="#contact">Contacts</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
@@ -68,28 +80,23 @@
               </p>
               <button type="button" class="banner__button">Download</button>
             </div>
-            <form action="" method="post" class="banner__form">
-              <label for="" class="form__label"
-                >Try Your FREE Trial Today</label
-              >
+            <form class="banner__form">
+              <label class="form__label">Try Your FREE Trial Today</label>
               <input
                 type="text"
-                name=""
-                id=""
+                name="name"
                 placeholder="name"
                 class="form__input"
               />
               <input
                 type="email"
-                name=""
-                id=""
+                name="email"
                 placeholder="email"
                 class="form__input"
               />
               <input
                 type="password"
-                name=""
-                id=""
+                name="password"
                 placeholder="password"
                 class="form__input"
               />
@@ -108,41 +115,44 @@
                 euismod bibendum laoreet.
               </p>
             </div>
-            <img
-              src="./src/assets/icons/facebook_icon.svg"
-              alt=""
-              class="social__favicon"
-            />
-            <img
-              src="./src/assets/icons/twitter_icon.svg"
-              alt=""
-              class="social__favicon"
-            />
-            <img
-              src="./src/assets/icons/linkedin_icon.svg"
-              alt=""
-              class="social__favicon"
-            />
-            <img
-              src="./src/assets/icons/linkedin_icon.svg"
-              alt=""
-              class="social__favicon"
-            />
-            <img
-              src="./src/assets/icons/instagram_icon.svg"
-              alt=""
-              class="social__favicon"
-            />
-            <img
-              src="./src/assets/icons/pinterest_icon.svg"
-              alt=""
-              class="social__favicon"
-            />
-            <img
-              src="./src/assets/icons/github_icon.svg"
-              alt=""
-              class="social__favicon"
-            />
+            <address class="social__adress">
+              <a href="#"
+                ><img
+                  src="./src/assets/icons/facebook_icon.svg"
+                  alt=""
+                  class="social__favicon"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./src/assets/icons/twitter_icon.svg"
+                  alt=""
+                  class="social__favicon"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./src/assets/icons/linkedin_icon.svg"
+                  alt=""
+                  class="social__favicon"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./src/assets/icons/instagram_icon.svg"
+                  alt=""
+                  class="social__favicon"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./src/assets/icons/pinterest_icon.svg"
+                  alt=""
+                  class="social__favicon"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./src/assets/icons/github_icon.svg"
+                  alt=""
+                  class="social__favicon"
+              /></a>
+            </address>
           </div>
         </div>
       </section>
@@ -291,7 +301,7 @@
       <section class="reviews" id="reviews">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-header__title">what our customers are saying</h2>
+            <h2 class="section-header__title">WHAT OUR CUSTOMERS ARE SAYING</h2>
             <hr class="section-header__separator" />
             <p class="section-header__overview">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -360,84 +370,94 @@
       </section>
       <section class="design" id="design">
         <div class="container">
-            <div class="section-header--design">
-              <h2 class="section-header__title--white">STYLISH AXURE DESIGN</h2>
-              <hr class="section-header__separator--white" />
-              <p class="section-header__overview--white">
-                Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
-              </p>
-              <button type="button" class="button__design">Download</button>
-            </div>
+          <div class="section-header--design">
+            <h2 class="section-header__title--white">STYLISH AXURE DESIGN</h2>
+            <hr class="section-header__separator--white" />
+            <p class="section-header__overview--white">
+              Use the sections you need, remove the ones you don't. Create
+              gorgeous prototypes faster than ever!
+            </p>
+            <button type="button" class="button__design">Download</button>
           </div>
         </div>
       </section>
       <section class="contact" id="contact">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-header__title">contact us</h2>
+            <h2 class="section-header__title">CONTACT US</h2>
             <hr class="section-header__separator" />
             <p class="section-header__overview">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
-          <div class="form"><form action="" id="form__contact" class="form__contact">
-            <div class="contact__contacts">
-              <input  type="text"  class="contact__text" placeholder="name">
-              <input type="email" class="contact__text" placeholder="email">
-              <input type="password" class="contact__text" placeholder="password">
-            </div>
-            <input type="text" class="contact__message" placeholder="message"></input>
-          </form>
-          <button class="button__form" form="form__contact" type="submit">Send Message</button>
-        </div>
-            
-          
+          <div class="form">
+            <form id="form__contact" class="form__contact">
+              <div class="contact__contacts">
+                <input type="text" class="contact__text" placeholder="name" />
+                <input type="email" class="contact__text" placeholder="email" />
+                <input
+                  type="password"
+                  class="contact__text"
+                  placeholder="password"
+                />
+              </div>
+              <textarea
+                class="contact__message"
+                placeholder="message"
+              ></textarea>
+            </form>
+            <button class="button__form" form="form__contact" type="submit">
+              Send Message
+            </button>
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-<div class="container">
-  <div class="footer__container">
-    <div class="footer__social">
-      <img
-      src="./src/assets/icons/facebook_icon.svg"
-      alt=""
-      class="social__favicon"
-    />
-    <img
-      src="./src/assets/icons/twitter_icon.svg"
-      alt=""
-      class="social__favicon"
-    />
-    <img
-      src="./src/assets/icons/linkedin_icon.svg"
-      alt=""
-      class="social__favicon"
-    />
-    <img
-      src="./src/assets/icons/linkedin_icon.svg"
-      alt=""
-      class="social__favicon"
-    />
-    <img
-      src="./src/assets/icons/instagram_icon.svg"
-      alt=""
-      class="social__favicon"
-    />
-    <img
-      src="./src/assets/icons/pinterest_icon.svg"
-      alt=""
-      class="social__favicon"
-    />
-    <img
-      src="./src/assets/icons/github_icon.svg"
-      alt=""
-      class="social__favicon"
-    />
-    </div>
-    <p class="footer__text">© 2015 Axure Themes</p>
-  </div>
-</div>
+      <div class="container">
+        <div class="footer__container">
+          <address class="footer__social">
+            <a href="#">
+              <img
+                src="./src/assets/icons/facebook_icon.svg"
+                alt=""
+                class="social__favicon"
+              />
+            </a>
+            <a href="#"
+              ><img
+                src="./src/assets/icons/twitter_icon.svg"
+                alt=""
+                class="social__favicon"
+            /></a>
+            <a href="#"
+              ><img
+                src="./src/assets/icons/linkedin_icon.svg"
+                alt=""
+                class="social__favicon"
+            /></a>
+            <a href="#"
+              ><img
+                src="./src/assets/icons/instagram_icon.svg"
+                alt=""
+                class="social__favicon"
+            /></a>
+            <a href="#"
+              ><img
+                src="./src/assets/icons/pinterest_icon.svg"
+                alt=""
+                class="social__favicon"
+            /></a>
+            <a href="#"
+              ><img
+                src="./src/assets/icons/github_icon.svg"
+                alt=""
+                class="social__favicon"
+            /></a>
+          </address>
+          <p class="footer__text">© 2015 Axure Themes</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

@@ -1,6 +1,10 @@
 .header {
   height: 76px;
   background-color: #000000;
+  position: fixed;
+  width: 100%;
+  z-index: 25;
+  scroll-padding: 3rem;
 }
 
 .header__container {
