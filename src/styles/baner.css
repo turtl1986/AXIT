@@ -45,13 +45,20 @@
 }
 
 .tagline::after {
-  content: "";
-  width: 10.625;
-  border-bottom: 1px solid #ffffff;
+  /* content: "";
+  max-width: 10.625rem;
+  background-color: #ffffff;
   position: absolute;
   left: 0;
-  height: 0;
-  padding-top: 6.25rem;
+  height: 1px;
+  padding-top: 6.25rem; */
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  display: block;
+  max-width: 10.625rem;
+  margin-bottom: 2.6rem;
+  margin-top: 3.43rem;
 }
 
 .description {
