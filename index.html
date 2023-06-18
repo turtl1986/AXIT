@@ -37,7 +37,8 @@
             src="./src/assets/images/logo.svg"
             alt="logo company"
             class="header__logo"
-        /></a>
+          />
+        </a>
         <nav class="menu">
           <ul class="menu__items">
             <li class="menu__item">
@@ -82,7 +83,7 @@
               aria-label="name"
               autocomplete="on"
               type="text"
-              name="name"
+              name="banner__name"
               placeholder="name"
               class="form__input"
             />
@@ -90,7 +91,7 @@
               aria-label="email"
               autocomplete="on"
               type="email"
-              name="email"
+              name="banner__email"
               placeholder="email"
               class="form__input"
             />
@@ -98,7 +99,7 @@
               aria-label="password"
               autocomplete="on"
               type="password"
-              name="password"
+              name="banner_password"
               placeholder="password"
               class="form__input"
             />
@@ -398,6 +399,7 @@
                   type="text"
                   class="contact__text"
                   placeholder="name"
+                  name="contact__name"
                 />
                 <input
                   aria-label="email"
@@ -405,8 +407,10 @@
                   type="email"
                   class="contact__text"
                   placeholder="email"
+                  name="contact__email"
                 />
                 <input
+                  name="contact__password"
                   aria-label="password"
                   autocomplete="on"
                   type="password"
@@ -415,6 +419,7 @@
                 />
               </div>
               <textarea
+                name="contact__message"
                 aria-label="message"
                 autocomplete="on"
                 class="contact__message"
