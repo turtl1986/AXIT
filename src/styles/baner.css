@@ -22,7 +22,7 @@
 .banner__container {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 17.5rem 0 11.25rem 0;
   gap: 1.875rem;
   z-index: 3;
@@ -45,13 +45,6 @@
 }
 
 .tagline::after {
-  /* content: "";
-  max-width: 10.625rem;
-  background-color: #ffffff;
-  position: absolute;
-  left: 0;
-  height: 1px;
-  padding-top: 6.25rem; */
   content: "";
   background-color: #fff;
   height: 1px;
@@ -114,4 +107,117 @@
   border: none;
   padding: 1.9rem 0px 1.9rem 0px;
   border-radius: 0px 0px 10px 10px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    min-height: 43.3rem;
+  }
+  .banner__container {
+    padding: 8.56rem 0 8.25rem 0;
+    gap: 2.25rem;
+  }
+
+  .banner__text {
+    gap: 2.125rem;
+    flex-basis: 7.875rem;
+  }
+
+  .tagline {
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+  }
+
+  .tagline::after {
+    max-width: 7.187rem;
+    margin-bottom: 31px;
+    margin-top: 2.59rem;
+  }
+
+  .description {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .banner__button {
+    font-size: 1.125rem;
+
+    padding: 1.1rem 4.5rem;
+  }
+
+  .form__label {
+    font-size: 1.25rem;
+    padding: 1.5rem 50px 0px 50px;
+  }
+
+  .form__input {
+    height: 2rem;
+    margin: 0px 50px;
+  }
+
+  .form__button {
+    font-size: 15px;
+
+    padding: 1.5rem 0px;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner {
+    min-height: 59.31rem;
+  }
+
+  .banner__container {
+    flex-direction: column;
+    padding: 5.25rem 0 50px 0;
+    gap: 3.5rem;
+    z-index: 3;
+    align-items: center;
+  }
+
+  .banner__text {
+    flex-direction: column;
+    gap: 2.625rem;
+    flex-basis: 18rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .banner__logo {
+    display: none;
+  }
+
+  .tagline::after {
+    max-width: 8.37rem;
+    margin-bottom: 0;
+    margin-top: 2.625rem;
+    margin-left: 4.875rem;
+  }
+
+  .description {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .banner__button {
+    padding: 1.1rem 3.5rem;
+  }
+
+  .banner__form {
+    gap: 33px;
+  }
+
+  .form__label {
+    font-size: 14px;
+    padding: 24px 3.3125rem 0px 3.3125rem;
+  }
+
+  .form__input {
+    margin: 0px 24px;
+  }
+
+  .form__button {
+    font-size: 15px;
+    padding: 1.5rem 0px 1.5rem 0px;
+  }
 }

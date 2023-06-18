@@ -2,6 +2,7 @@
   font-size: 0;
   text-align: center;
   padding: 4.4rem 0;
+  scroll-margin: 1rem;
 }
 .section-header__title {
   color: black;
@@ -20,4 +21,42 @@
   font-size: 1.125rem;
   text-align: center;
   color: #86878b;
+}
+
+@media (max-width: 1024px) {
+  .section-header {
+    padding: 50px 0;
+  }
+  .section-header__title {
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
+  .section-header__separator {
+    width: 8.8rem;
+    margin-bottom: 2rem;
+  }
+  .section-header__overview {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .section-header {
+    padding: 50px;
+  }
+  .section-header__title {
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
+
+  .section-header__separator {
+    width: 9.57rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-header__overview {
+    font-size: 1.28rem;
+    margin: 0px;
+    padding: 15px 3rem;
+  }
 }
