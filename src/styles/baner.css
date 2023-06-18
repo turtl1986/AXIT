@@ -36,7 +36,7 @@
   align-items: flex-start;
 }
 
-.tagline {
+.banner__tagline {
   font-size: 3rem;
   line-height: 3.5rem;
   text-transform: uppercase;
@@ -44,7 +44,7 @@
   position: relative;
 }
 
-.tagline::after {
+.banner__tagline::after {
   content: "";
   background-color: #fff;
   height: 1px;
@@ -54,7 +54,7 @@
   margin-top: 3.43rem;
 }
 
-.description {
+.banner__description {
   font-size: 1.125rem;
   align-items: center;
   color: #ffffff;
@@ -123,18 +123,18 @@
     flex-basis: 7.875rem;
   }
 
-  .tagline {
+  .banner__tagline {
     font-size: 2.25rem;
     line-height: 2.625rem;
   }
 
-  .tagline::after {
+  .banner__tagline::after {
     max-width: 7.187rem;
     margin-bottom: 31px;
     margin-top: 2.59rem;
   }
 
-  .description {
+  .banner__description {
     font-size: 14px;
     text-align: left;
   }
@@ -187,14 +187,14 @@
     display: none;
   }
 
-  .tagline::after {
+  .banner__tagline::after {
     max-width: 8.37rem;
     margin-bottom: 0;
     margin-top: 2.625rem;
     margin-left: 4.875rem;
   }
 
-  .description {
+  .banner__description {
     font-size: 14px;
     text-align: center;
   }

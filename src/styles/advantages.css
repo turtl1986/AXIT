@@ -4,6 +4,7 @@
   display: flex;
   gap: 30px;
   scroll-margin: 1rem;
+  scroll-snap-align: start;
 }
 
 .advantages__item {

@@ -3,6 +3,7 @@
   gap: 30px;
   padding-bottom: 3.125rem;
   scroll-margin: 1rem;
+  scroll-snap-align: start;
 }
 
 .reviews__review {

@@ -1,6 +1,7 @@
 .contact {
   padding-bottom: 3.125rem;
   scroll-margin: 3rem 0;
+  scroll-snap-align: start;
 }
 
 .form {

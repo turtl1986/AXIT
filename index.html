@@ -61,96 +61,98 @@
     </header>
     <main>
       <section class="banner" id="banner">
-        <div class="container">
-          <div class="banner__container">
-            <div class="banner__text">
-              <img
-                src="./src/assets/images/logo__banner.svg"
-                alt="logo company"
-                class="banner__logo"
-              />
-              <h1 class="tagline">
-                MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
-              </h1>
-              <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              </p>
-              <button type="button" class="banner__button">Download</button>
-            </div>
-            <form class="banner__form">
-              <p class="form__label">Try Your FREE Trial Today</p>
-              <input
-                type="text"
-                name="name"
-                placeholder="name"
-                class="form__input"
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="email"
-                class="form__input"
-              />
-              <input
-                type="password"
-                name="password"
-                placeholder="password"
-                class="form__input"
-              />
-              <button type="button" class="form__button">Get Started</button>
-            </form>
+        <div class="container banner__container">
+          <div class="banner__text">
+            <img
+              src="./src/assets/images/logo__banner.svg"
+              alt="logo company"
+              class="banner__logo"
+            />
+            <h1 class="banner__tagline">
+              MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+            </h1>
+            <p class="banner__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+            <button type="button" class="banner__button">Download</button>
           </div>
+          <form class="banner__form">
+            <p class="form__label">Try Your FREE Trial Today</p>
+            <input
+              aria-label="name"
+              autocomplete="on"
+              type="text"
+              name="name"
+              placeholder="name"
+              class="form__input"
+            />
+            <input
+              aria-label="email"
+              autocomplete="on"
+              type="email"
+              name="email"
+              placeholder="email"
+              class="form__input"
+            />
+            <input
+              aria-label="password"
+              autocomplete="on"
+              type="password"
+              name="password"
+              placeholder="password"
+              class="form__input"
+            />
+            <button type="submit" class="form__button">Get Started</button>
+          </form>
         </div>
       </section>
       <section class="social" id="social">
-        <div class="container">
-          <div class="social__container">
-            <div class="social__text">
-              <h2 class="text__label">Social Media</h2>
-              <p class="text__description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                euismod bibendum laoreet.
-              </p>
-            </div>
-            <address class="social__adress">
-              <a href="#"
-                ><img
-                  src="./src/assets/icons/facebook_icon.svg"
-                  alt=""
-                  class="social__favicon"
-              /></a>
-              <a href="#"
-                ><img
-                  src="./src/assets/icons/twitter_icon.svg"
-                  alt=""
-                  class="social__favicon"
-              /></a>
-              <a href="#"
-                ><img
-                  src="./src/assets/icons/linkedin_icon.svg"
-                  alt=""
-                  class="social__favicon"
-              /></a>
-              <a href="#"
-                ><img
-                  src="./src/assets/icons/instagram_icon.svg"
-                  alt=""
-                  class="social__favicon"
-              /></a>
-              <a href="#"
-                ><img
-                  src="./src/assets/icons/pinterest_icon.svg"
-                  alt=""
-                  class="social__favicon"
-              /></a>
-              <a href="#"
-                ><img
-                  src="./src/assets/icons/github_icon.svg"
-                  alt=""
-                  class="social__favicon"
-              /></a>
-            </address>
+        <div class="container social__container">
+          <div class="social__text">
+            <h2 class="text__label">Social Media</h2>
+            <p class="text__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet.
+            </p>
           </div>
+          <address class="social__adress">
+            <a href="#"
+              ><img
+                src="./src/assets/icons/facebook_icon.svg"
+                alt=""
+                class="social__favicon"
+            /></a>
+            <a href="#"
+              ><img
+                src="./src/assets/icons/twitter_icon.svg"
+                alt=""
+                class="social__favicon"
+            /></a>
+            <a href="#"
+              ><img
+                src="./src/assets/icons/linkedin_icon.svg"
+                alt=""
+                class="social__favicon"
+            /></a>
+            <a href="#"
+              ><img
+                src="./src/assets/icons/instagram_icon.svg"
+                alt=""
+                class="social__favicon"
+            /></a>
+            <a href="#"
+              ><img
+                src="./src/assets/icons/pinterest_icon.svg"
+                alt=""
+                class="social__favicon"
+            /></a>
+            <a href="#"
+              ><img
+                src="./src/assets/icons/github_icon.svg"
+                alt=""
+                class="social__favicon"
+            /></a>
+          </address>
         </div>
       </section>
       <section class="tabs" id="tabs">
@@ -390,15 +392,31 @@
           <div class="form">
             <form id="form__contact" class="form__contact">
               <div class="contact__contacts">
-                <input type="text" class="contact__text" placeholder="name" />
-                <input type="email" class="contact__text" placeholder="email" />
                 <input
+                  aria-label="name"
+                  autocomplete="on"
+                  type="text"
+                  class="contact__text"
+                  placeholder="name"
+                />
+                <input
+                  aria-label="email"
+                  autocomplete="on"
+                  type="email"
+                  class="contact__text"
+                  placeholder="email"
+                />
+                <input
+                  aria-label="password"
+                  autocomplete="on"
                   type="password"
                   class="contact__text"
                   placeholder="password"
                 />
               </div>
               <textarea
+                aria-label="message"
+                autocomplete="on"
                 class="contact__message"
                 placeholder="message"
               ></textarea>

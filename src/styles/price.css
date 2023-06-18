@@ -2,6 +2,7 @@
   background: #f5f5f5;
   padding-bottom: 3.125rem;
   scroll-margin: 1rem;
+  scroll-snap-align: start;
 }
 
 .price__tables {
