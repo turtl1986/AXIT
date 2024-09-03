@@ -1,0 +1,110 @@
+.banner {
+  background: url(../assets/images/banner__background.jpg);
+  background-size: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+  object-position: center;
+  position: relative;
+  min-height: 950px;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.banner__container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 17.5rem 0 11.25rem 0;
+  gap: 1.875rem;
+  z-index: 3;
+}
+
+.banner__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2.125rem;
+  flex-basis: 41.875rem;
+  align-items: flex-start;
+}
+
+.tagline {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+}
+
+.tagline::after {
+  content: "";
+  width: 10.625;
+  border-bottom: 1px solid #ffffff;
+  position: absolute;
+  left: 0;
+  height: 0;
+  padding-top: 6.25rem;
+}
+
+.description {
+  font-size: 1.125rem;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+.banner__button {
+  font-family: "Open Sans";
+  font-size: 1.125rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 1.1rem 6.5rem;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.banner__form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.form__label {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  padding: 1.5rem 3.3125rem 0px 3.3125rem;
+}
+
+.form__input {
+  padding: 10px;
+  height: 2rem;
+  margin: 0px 3.125rem 0px 3.125rem;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.form__button {
+  background: #ec7979;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1.9rem;
+  color: #ffffff;
+  border: none;
+  padding: 1.9rem 0px 1.9rem 0px;
+  border-radius: 0px 0px 10px 10px;
+}

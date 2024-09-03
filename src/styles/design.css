@@ -1,0 +1,57 @@
+.design {
+  background: url(../assets/images/design.jpg);
+  background-size: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+  object-position: center;
+  position: relative;
+}
+
+.design::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.section-header--design {
+  position: relative;
+  font-size: 0;
+  text-align: center;
+  padding: 4.4rem 0;
+  z-index: 3;
+}
+
+.section-header__title--white {
+  color: #ffffff;
+  font-size: 2.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.section-header__separator--white {
+  width: 10.6rem;
+  border: 1px solid #ffffff;
+  margin-bottom: 2.5rem;
+  display: inline-block;
+}
+
+.section-header__overview--white {
+  font-size: 1.125rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button__design {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1.125rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 4.56rem 0px 3.125rem 0px;
+  border: 1px solid #ffffff;
+  padding: 1.25rem 10rem;
+}

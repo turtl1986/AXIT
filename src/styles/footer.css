@@ -1,0 +1,24 @@
+.footer {
+  background-color: #000;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2.1875rem 0px 1.6875rem 0px;
+}
+
+
+.social__address{
+  display: flex;
+  gap: 2.0625rem;
+}
+
+.footer__text {
+  font-size: 1.125rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
